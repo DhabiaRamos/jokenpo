@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jokenpô</title>
+</head>
+
+<body>
+
+    <main>
+
+        <div class="game">
+            <section id="resul-section">
+                <p>Sua pontuação: <span class="player-score">0</span></p>
+                <p>Pontuação do computador: <span class="computer-score">0</span></p>
+                <p class="p-resul">Resultado...</p>
+            </section>
+
+            <section id="player-section">
+                <img src="./assets/img/rock-img.png" alt="botão da pedra" class="btn-img btn-rock"
+                    onclick="choicePlayer('rock')">
+                <img src="./assets/img/paper-img.png" alt="botão do papel" class="btn-img btn-paper"
+                    onclick="choicePlayer('paper')">
+                <img src="./assets/img/scissors-img.png" alt="botão da tesoura" class="btn-img btn-scissors"
+                    onclick="choicePlayer('scissors')">
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
